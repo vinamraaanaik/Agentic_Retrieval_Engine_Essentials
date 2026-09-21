@@ -1,0 +1,12 @@
+[
+  {
+    "id": "customer-001",
+    "question": "Which customers have high churn risk and unresolved support escalations, and why?",
+    "required_sources": ["sql_db", "vector_search"]
+  },
+  {
+    "id": "support-001",
+    "question": "What unresolved support issues are associated with Acme Corp?",
+    "required_sources": ["vector_search"]
+  }
+]
